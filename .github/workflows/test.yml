@@ -18,4 +18,4 @@ jobs:
       - name: Run Unit tests
         run: npm test
         env:
-          SQLITE_DB_LOCATION: /top/todo.db
+          SQLITE_DB_LOCATION: ./top/todo.db
